@@ -1,0 +1,85 @@
+/* Fuente para títulos */
+.titulo {
+    font-family: "protest revolution", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 5rem;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.izquierda {
+    text-align: center;
+}
+
+.centro {
+    text-align: center;
+}
+
+/* Contenedor */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Fondo del Index 1 */
+body {
+    background-image: url('fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+/* Texto explicativo */
+.texto {
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+/* Imágenes al 50% de tamaño */
+.imagen {
+    width: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Botón circular */
+.boton {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 30px auto;
+}
+
+/* Fondo del Index 2 */
+.fondo-blanco {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.blocker {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Capa negra */
+    display: none; /* Oculta por defecto */
+    z-index: 9999;
+}
+
+/* Imagen de pantalla completa */
+.imagen-full {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
